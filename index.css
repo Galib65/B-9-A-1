@@ -1,0 +1,305 @@
+/* heading related style */
+
+.banner{
+    background-image: url('./resources/BannerImage.png'),linear-gradient(to bottom,rgb(0, 0, 0), rgba(255, 255, 255, 0.354)); 
+    height: 500px;
+    width: 1320px;
+    color: white;
+    text-align: center;
+    padding-top: 105px;
+    background-blend-mode: multiply ;
+    background-repeat: no-repeat;
+    font-size:xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* offer section related style */
+.offer{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 806px;
+    width: 803px;
+    margin:15px 258px 10px 258px;
+}
+.offer h1{
+    color:red;
+    font-size: 60px;
+}
+.offer h6{
+ color:red;
+ font-size: medium;
+ font-weight: 500;
+}
+.offer h3{
+font-size: 30px;
+}
+
+/* Party section related style */
+.party{
+    height: 500px;
+    width: 1320px;
+    background-image: url('./resources/Vectorrr.png'),linear-gradient(to right,rgb(0, 0, 0), rgba(255, 255, 255, 0.354)); 
+    color: white;
+    /* text-align: center; */
+    /* padding-top: 105px; */
+    background-blend-mode: multiply ;
+    background-repeat: no-repeat;
+    font-size:xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:30px 0px 0px 60px;
+   
+}
+.party p{
+    font-size: small;
+    font-weight: 100;
+}
+.party button{
+    background-color: black;
+    color: white;
+    width: 103px;
+    height: 24px;
+    border: none;
+    
+}
+
+/* joining party related style */
+.joining-party{
+    height:470px;
+    width:1320px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient(to bottom,rgb(247, 176, 176), rgb(255, 255, 255));
+    margin-top: 100px;
+    padding-top: 150px;
+}
+.red{
+    color: red;
+}
+.joining-party button{
+    height: 27px;
+    width: 110px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+/* bonus section related style */
+.bonus{
+    display: flex;
+    gap: 50px;;
+    width:1320px;
+    height:463px;
+    margin-top: 30px;
+}
+.part1 h3{
+    color:red;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.part1 h1{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.part1 p{
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.part2 img{
+    height: 430px;
+    width: 430px;
+    border: 10px solid red;
+    padding: 17px;
+    border-radius:50%
+}
+.part3 h1{
+    color:red;
+    font-family:sans-serif;
+    font-size: xx-large;
+}
+.part3 p{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.part3 img{
+    height:140px;
+    width:140px;
+}
+/* holiday section related style */
+
+.holiday{
+    margin-top: 100px;
+    background-image: url(resources/Rectangle\ 2.png),url(resources/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position:bottom,right 0px bottom 229px;
+    height:986px;
+    width:1320px; 
+}
+.holiday p{
+    text-align: center;
+    font-size: small;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.holiday h1{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.holiday span{
+    color: red;
+}
+.holiday p{
+    text-align: center;
+    color:gray;
+    padding:0px 200px 0px 200px;
+}
+/* .discount-image{
+    padding-left: 750px;
+    padding-top:300px;
+} */
+.discount-image{
+    height:221px;
+    width: 221px;
+    margin-top: 350px;
+    margin-left: 100px;
+}
+.box{
+   height:577px;
+   width:674px;
+   margin-top: 250px;
+}
+.holiday div{
+    display:flex;
+}
+/* portfolio related design */
+
+.portfolio{
+    height:1120px;
+    weidth:1320px;
+    margin-top: 100px;
+    
+
+}
+.portfolio h6{
+    color:red;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.portfolio h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.description{
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:gray;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+  }
+  
+  .grid-item {
+    width: 100%; 
+  }
+  
+  .grid-item img {
+    width: 100%; 
+    display: block;
+  }
+  /* newaletter related design */
+  .newsletter{
+    height: 616px;
+    width:1320px;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 100px;
+    padding-top: 75px;
+  }
+ 
+  .newsletter h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .newsletter p{
+    color:gray;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .input{
+   display: flex;
+   gap:0px;
+   margin-left:390px;
+   margin-top: 50px;
+
+  }
+  input[type=email] {
+    width: 438px; 
+    padding: 12px 20px; 
+    margin: 8px 0; 
+    border: 1px solid #ccc;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+   
+  }
+  
+  input[type=submit] {
+    background-color:red; 
+    color: white;
+    padding: 12px 20px; 
+  
+    border: none; 
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer; 
+  }
+
+  /* footer related design */
+
+  footer{
+    background-color: rgb(12, 2, 41);
+    height: 609px;
+    width: 1320px;
+  }
+
+  .f-top{
+    display: flex;
+    gap:750px;
+    color: white;
+    padding-top: 70px;  
+    padding-left: 70px;
+     }
+     footer hr{
+        margin-left: 80px;
+        margin-right: 100px;
+     
+     }
+     .icon{
+        text-align: center;
+        margin: 60px 5px 60px 5px;
+     }
+     .icon img{
+        margin-left: 13px;
+        margin-right: 13px;
+     }
+     .last{
+        display: flex;
+        gap:850px;
+        margin-left: 100px;
+        margin-top: 60px;
+        color:white;
+     }
+     .last button{
+        background-color: rgb(12, 2, 41);
+        color:white;
+        border:none;
+        cursor: pointer;
+
+     }
+     .f-foot img{
+        margin-bottom: 20px;
+     }
+    .contact{
+        position: relative;
+       top:6px;
+
+    }
